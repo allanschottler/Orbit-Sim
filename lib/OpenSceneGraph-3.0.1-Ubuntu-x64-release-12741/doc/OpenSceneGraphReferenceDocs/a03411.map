@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$a00136.html" title="osgVolume::CompositeProperty" alt="" coords="553,5,759,35"/>
+<area shape="rect" id="node11" href="$a00436.html" title="osgVolume::LightingProperty" alt="" coords="563,58,749,89"/>
+<area shape="rect" id="node13" href="$a00475.html" title="osgVolume::MaximumIntensityProjectionProperty" alt="" coords="503,111,809,142"/>
+<area shape="rect" id="node15" href="$a00685.html" title="osgVolume::ScalarProperty" alt="" coords="567,165,745,195"/>
+<area shape="rect" id="node27" href="$a00874.html" title="osgVolume::TransferFunctionProperty" alt="" coords="537,218,775,249"/>
+<area shape="rect" id="node2" href="$a00510.html" title="Base class/standard interface for objects which require IO support, cloning and reference counting..." alt="" coords="172,111,260,142"/>
+<area shape="rect" id="node4" href="$a00644.html" title="Base class for providing reference counted objects." alt="" coords="5,111,123,142"/>
+<area shape="rect" id="node9" href="$a00792.html" title="osgVolume::SwitchProperty" alt="" coords="921,5,1103,35"/>
+<area shape="rect" id="node17" href="$a00011.html" title="osgVolume::AlphaFuncProperty" alt="" coords="911,58,1113,89"/>
+<area shape="rect" id="node19" href="$a00422.html" title="osgVolume::IsoSurfaceProperty" alt="" coords="909,111,1115,142"/>
+<area shape="rect" id="node21" href="$a00679.html" title="Sample density to use when the volume is static relative to the eye point or when moving if no Sample..." alt="" coords="897,165,1127,195"/>
+<area shape="rect" id="node23" href="$a00680.html" title="Sample density to use when the volume is moving relative to the eye point." alt="" coords="859,218,1165,249"/>
+<area shape="rect" id="node25" href="$a00885.html" title="osgVolume::TransparencyProperty" alt="" coords="901,271,1123,302"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$a00239.html" title="osg::ElementBufferObject" alt="" coords="488,5,659,35"/>
+<area shape="rect" id="node9" href="$a00571.html" title="osg::PixelBufferObject" alt="" coords="497,58,649,89"/>
+<area shape="rect" id="node11" href="$a00574.html" title="This object represent a general class of pixel buffer objects, which are capable of allocating buffer..." alt="" coords="484,111,663,142"/>
+<area shape="rect" id="node13" href="$a00898.html" title="osg::UniformBufferObject" alt="" coords="489,165,657,195"/>
+<area shape="rect" id="node15" href="$a00946.html" title="osg::VertexBufferObject" alt="" coords="493,218,653,249"/>
+<area shape="rect" id="node2" href="$a00510.html" title="Base class/standard interface for objects which require IO support, cloning and reference counting..." alt="" coords="172,111,260,142"/>
+<area shape="rect" id="node4" href="$a00644.html" title="Base class for providing reference counted objects." alt="" coords="5,111,123,142"/>
+</map>

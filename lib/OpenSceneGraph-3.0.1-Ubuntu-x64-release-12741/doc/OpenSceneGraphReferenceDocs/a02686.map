@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" id="node14" href="$a00020.html" title="osgGA::AnimationPathManipulator" alt="" coords="1015,5,1233,35"/>
+<area shape="rect" id="node16" href="$a00095.html" title="osgGA::CameraViewSwitchManipulator" alt="" coords="1000,58,1248,89"/>
+<area shape="rect" id="node18" href="$a00230.html" title="DriveManipulator is a camera manipulator which provides drive&#45;like functionality." alt="" coords="1041,111,1207,142"/>
+<area shape="rect" id="node20" href="$a00429.html" title="KeySwitchMatrixManipulator is a decorator which allows the type of camera manipulator being used to b..." alt="" coords="1008,165,1240,195"/>
+<area shape="rect" id="node22" href="$a00748.html" title="osgGA::SphericalManipulator" alt="" coords="1029,218,1219,249"/>
+<area shape="rect" id="node24" href="$a00756.html" title="StandardManipulator class provides basic functionality for user controlled manipulation." alt="" coords="1031,271,1217,302"/>
+<area shape="rect" id="node40" href="$a00893.html" title="A UFO manipulator driven with keybindings." alt="" coords="1043,325,1205,355"/>
+<area shape="rect" id="node2" href="$a00351.html" title="GUIEventHandler provides a basic interface for any class which wants to handle a GUI Events..." alt="" coords="553,165,721,195"/>
+<area shape="rect" id="node4" href="$a00503.html" title="osg::NodeCallback" alt="" coords="341,138,472,169"/>
+<area shape="rect" id="node6" href="$a00510.html" title="Base class/standard interface for objects which require IO support, cloning and reference counting..." alt="" coords="172,165,260,195"/>
+<area shape="rect" id="node10" href="$a00250.html" title="osg::Drawable::EventCallback" alt="" coords="309,191,504,222"/>
+<area shape="rect" id="node8" href="$a00644.html" title="Base class for providing reference counted objects." alt="" coords="5,165,123,195"/>
+<area shape="rect" id="node26" href="$a00289.html" title="FirstPersonManipulator is base class for camera control based on position and orientation of camera..." alt="" coords="1296,245,1499,275"/>
+<area shape="rect" id="node30" href="$a00537.html" title="OrbitManipulator is base class for camera control based on focal center, distance from the center..." alt="" coords="1316,325,1479,355"/>
+<area shape="rect" id="node28" href="$a00294.html" title="FlightManipulator is a MatrixManipulator which provides flight simulator&#45;like updating of the camera ..." alt="" coords="1568,231,1736,262"/>
+<area shape="rect" id="node32" href="$a00505.html" title="osgGA::NodeTrackerManipulator" alt="" coords="1548,285,1756,315"/>
+<area shape="rect" id="node34" href="$a00823.html" title="osgGA::TerrainManipulator" alt="" coords="1565,338,1739,369"/>
+<area shape="rect" id="node36" href="$a00870.html" title="osgGA::TrackballManipulator" alt="" coords="1559,391,1745,422"/>
+<area shape="rect" id="node38" href="$a00497.html" title="osgGA::MultiTouchTrackballManipulator" alt="" coords="1805,391,2056,422"/>
+</map>

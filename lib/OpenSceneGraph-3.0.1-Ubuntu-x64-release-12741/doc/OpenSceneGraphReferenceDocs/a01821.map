@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$a00077.html" title="osg::buffered_object\&lt; AutoTransformCache \&gt;" alt="" coords="461,10,747,41"/>
+<area shape="rect" id="node5" href="$a00077.html" title="osg::buffered_object\&lt; Coords3 \&gt;" alt="" coords="499,63,709,94"/>
+<area shape="rect" id="node7" href="$a00077.html" title="osg::buffered_object\&lt; GlyphPtrList \&gt;" alt="" coords="487,117,721,147"/>
+<area shape="rect" id="node9" href="$a00077.html" title="osg::buffered_object\&lt; ref_ptr\&lt; TextureObject \&gt; \&gt;" alt="" coords="451,170,757,201"/>
+<area shape="rect" id="node11" href="$a00077.html" title="osg::buffered_object\&lt; osg::ref_ptr\&lt; GLBufferObject \&gt; \&gt;" alt="" coords="432,223,776,254"/>
+<area shape="rect" id="node13" href="$a00077.html" title="osg::buffered_object\&lt; ImpostorSpriteList \&gt;" alt="" coords="469,277,739,307"/>
+</map>
