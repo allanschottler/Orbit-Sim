@@ -6,20 +6,29 @@
  */
 
 #include "ObjectNode.h"
+#include "osg/Geometry"
 
 
 ObjectNode::ObjectNode() 
 {
     _diameter = 1.0f;
     _rotationPeriod = 1.0f;
-    _objectGeode = new osg::Geode;
+    _geode = new osg::Geode;
    
-    addChild( _objectGeode );
+    addChild( _geode );    
 }
 
 
-ObjectNode::~ObjectNode() 
+ObjectNode::~ObjectNode()  
 {
+}
+
+
+void ObjectNode::setGeometryTexture( osg::ref_ptr< osg::Texture2D > geometryTexture )
+{
+    //_geometryTexture = geometryTexture;
+    
+    _geode->getOrCreateStateSet()->setTextureAttributeAndModes( 0, geometryTexture );
 }
 
 

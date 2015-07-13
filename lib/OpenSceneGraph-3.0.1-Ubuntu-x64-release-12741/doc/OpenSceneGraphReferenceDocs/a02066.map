@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$a00759.html" title="Encapsulates the current applied OpenGL modes, attributes and vertex arrays settings, implements lazy state updating and provides accessors for querying the current state." alt="" coords="5,86,88,117"/>
-<area shape="rect" id="node5" href="$a00825.html" title="osgTerrain::TerrainTechnique" alt="" coords="112,86,299,117"/>
-<area shape="rect" id="node7" href="$a00317.html" title="osgTerrain::GeometryTechnique" alt="" coords="103,166,308,197"/>
-</map>

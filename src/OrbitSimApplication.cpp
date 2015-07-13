@@ -7,11 +7,13 @@
 
 #include "OrbitSimApplication.h"
 #include "PlanetNode.h"
+#include "TextureFactory.h"
 
 /* system */
 /* osg */
 #include <osgGA/TrackballManipulator>
 #include <osgGA/UFOManipulator>
+#include <osgDB/ReadFile>
 
 OrbitSimApplication::OrbitSimApplication() 
 {
@@ -21,9 +23,12 @@ OrbitSimApplication::OrbitSimApplication()
     osg::ref_ptr< osgGA::TrackballManipulator > manipulator = new osgGA::TrackballManipulator();
     _viewer.setCameraManipulator( manipulator );
     _viewer.getCamera()->setClearColor( osg::Vec4( 0.0f, 0.0f, 0.0f, 1.0f ) );
-	
+
+    osg::ref_ptr< PlanetNode > earth = new PlanetNode();
+    earth->setGeometryTexture( TextureFactory::getInstance()->getTexture2D( "data/planets/earthmap1k.jpg" ) );
+    
     _sceneNode = new osg::Group;
-    _sceneNode->addChild( new PlanetNode() );
+    _sceneNode->addChild( earth );
 	
     _viewer.setSceneData( _sceneNode );    
 }

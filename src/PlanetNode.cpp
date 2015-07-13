@@ -6,12 +6,11 @@
  */
 
 #include "PlanetNode.h"
+#include "GeometryFactory.h"
 
 PlanetNode::PlanetNode()
 {
-    _sphereGeometry = new SphereGeometry(); 
-    
-    _objectGeode->addDrawable( _sphereGeometry );
+    _geode->addDrawable( GeometryFactory::getInstance()->getGeometry( GeometryFactory::SPHERE ) );
 }
 
 

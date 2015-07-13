@@ -14,6 +14,7 @@
 /* system */
 /* osg */
 
+
 class PlanetNode : public ObjectNode
 {
 public:
@@ -33,10 +34,9 @@ public:
      */
     void buildNode();
     
+    
 private:
 
-    /* Object's geometry */
-    osg::ref_ptr< SphereGeometry > _sphereGeometry;
 };
 
 #endif	/* PLANETNODE_H */

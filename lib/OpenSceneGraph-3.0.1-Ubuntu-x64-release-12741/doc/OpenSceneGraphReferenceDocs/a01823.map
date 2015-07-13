@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node9" href="$a00878.html" title="StateAttribute for binding a transform feedback index target." alt="" coords="5,326,248,357"/>
-<area shape="rect" id="node11" href="$a00897.html" title="StateAttribute for binding a uniform buffer index target." alt="" coords="272,326,445,357"/>
-<area shape="rect" id="node2" href="$a00760.html" title="Base class for state attributes." alt="" coords="177,166,308,197"/>
-<area shape="rect" id="node4" href="$a00510.html" title="Base class/standard interface for objects which require IO support, cloning and reference counting..." alt="" coords="199,86,287,117"/>
-<area shape="rect" id="node6" href="$a00644.html" title="Base class for providing reference counted objects." alt="" coords="184,6,301,37"/>
-</map>

@@ -12,6 +12,7 @@
 /* osg */
 #include <osg/Group>
 #include <osg/Geode>
+#include <osg/Texture2D>
 
 class ObjectNode : public osg::Group
 {
@@ -31,6 +32,12 @@ public:
      * Builds transforms and geometries
      */
     virtual void buildNode() = 0;
+    
+    /**
+     * Set geometry's texture
+     * @param geometryTexture
+     */
+    void setGeometryTexture( osg::ref_ptr< osg::Texture2D > geometryTexture );
     
     /**
      * Set diameter in km
@@ -53,7 +60,13 @@ protected:
     float _rotationPeriod;
     
     /* Object's geometry node */
-    osg::ref_ptr< osg::Geode > _objectGeode;
+    osg::ref_ptr< osg::Geode > _geode;
+    
+    /* Object's geometry */
+    //osg::ref_ptr< osg::Geometry > _geometry;
+    
+    /* Object's geometry texture */
+    //osg::ref_ptr< osg::Texture2D > _geometryTexture;
 };
 
 #endif	/* OBJECTNODE_H */

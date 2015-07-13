@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$a00073.html" title="Pure virtual base class that provides the browser interface for integration with 3rd party implementa..." alt="" coords="5,326,179,357"/>
-<area shape="rect" id="node4" href="$a00364.html" title="Image class for encapsulating the storage texture image data." alt="" coords="49,246,135,277"/>
-<area shape="rect" id="node6" href="$a00076.html" title="osg::BufferData" alt="" coords="36,166,148,197"/>
-<area shape="rect" id="node8" href="$a00510.html" title="Base class/standard interface for objects which require IO support, cloning and reference counting..." alt="" coords="48,86,136,117"/>
-<area shape="rect" id="node10" href="$a00644.html" title="Base class for providing reference counted objects." alt="" coords="33,6,151,37"/>
-</map>

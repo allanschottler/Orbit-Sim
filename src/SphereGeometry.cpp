@@ -72,6 +72,6 @@ void SphereGeometry::buildGeometry( float radius, unsigned int rings, unsigned i
     
     osg::ref_ptr< osg::Vec4Array > colors = new osg::Vec4Array;
     colors->push_back( osg::Vec4( 1.0f, 0.0f, 0.0f, 1.0f ) );
-    setColorArray( colors );
-    setColorBinding( osg::Geometry::BIND_OVERALL );
+    //setColorArray( colors );
+    //setColorBinding( osg::Geometry::BIND_OVERALL );
 }
