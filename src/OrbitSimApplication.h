@@ -8,6 +8,8 @@
 #ifndef ORBITSIMAPPLICATION_H
 #define	ORBITSIMAPPLICATION_H
 
+#include "PlanetNode.h"
+
 /* system */
 #include <iostream>
 
@@ -21,13 +23,33 @@ class OrbitSimApplication
 {
 public:
     
-    OrbitSimApplication();
+    /**
+     * Returns unique instance
+     * @return 
+     */
+    static OrbitSimApplication* getInstance();
   
+    /**
+     * Destructor
+     */
     virtual ~OrbitSimApplication();
     
+    /**
+     * Application loop
+     */
     void mainLoop();
     
 private:
+    
+    /**
+     * Private constructor
+     */
+    OrbitSimApplication();
+    
+    osg::ref_ptr< PlanetNode > createEarth();
+    
+    /* Unique instance */
+    static OrbitSimApplication* _instance;
     
     osgViewer::Viewer _viewer;
     

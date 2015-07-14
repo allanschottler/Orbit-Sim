@@ -3,7 +3,6 @@
 
 int main(void)
 {
-    OrbitSimApplication application;
-    application.mainLoop();
+    OrbitSimApplication::getInstance()->mainLoop();
 }
   

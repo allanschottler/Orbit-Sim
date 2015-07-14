@@ -29,7 +29,7 @@ public:
     /**
      * Destructor
      */
-    virtual ~TextureFactory();
+    virtual ~TextureFactory() {};
     
     /**
      * Returns a unique 2d texture
@@ -43,7 +43,7 @@ private:
     /**
      * Private constructor
      */
-    TextureFactory();
+    TextureFactory() {};
     
     /* Unique instance */
     static TextureFactory* _instance;    

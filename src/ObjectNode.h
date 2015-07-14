@@ -14,6 +14,8 @@
 #include <osg/Geode>
 #include <osg/Texture2D>
 
+#include "RotationTransform.h"
+
 class ObjectNode : public osg::Group
 {
 public:
@@ -49,24 +51,18 @@ public:
      * Set rotation period in Earth hours
      * @param rotationPeriod
      */
-    void setRotationPeriod( float rotationPeriod );
+    void setRotationPeriod( double rotationPeriod );
     
 protected:
     
-    /* Diameter in km */
-    float _diameter; 
+    /* Scale transform */
+    osg::ref_ptr< osg::MatrixTransform > _scaleTransform;
     
-    /* Rotation period in Earth hours */
-    float _rotationPeriod;
+    /* Rotation transform */
+    osg::ref_ptr< RotationTransform > _rotationTransform;
     
-    /* Object's geometry node */
-    osg::ref_ptr< osg::Geode > _geode;
-    
-    /* Object's geometry */
-    //osg::ref_ptr< osg::Geometry > _geometry;
-    
-    /* Object's geometry texture */
-    //osg::ref_ptr< osg::Texture2D > _geometryTexture;
+    /* Geometry node */
+    osg::ref_ptr< osg::Geode > _geode;    
 };
 
 #endif	/* OBJECTNODE_H */

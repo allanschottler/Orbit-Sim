@@ -34,7 +34,7 @@ public:
     /**
      * Destructor
      */
-    virtual ~GeometryFactory();
+    virtual ~GeometryFactory() {};
     
     /**
      * Returns a unique geometry
@@ -48,7 +48,7 @@ private:
     /**
      * Private constructor
      */
-    GeometryFactory();
+    GeometryFactory() {};
      
     /* Unique instance */
     static GeometryFactory* _instance;

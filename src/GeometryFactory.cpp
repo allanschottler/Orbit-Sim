@@ -11,16 +11,6 @@
 GeometryFactory* GeometryFactory::_instance = 0;
 
 
-GeometryFactory::GeometryFactory() 
-{
-}
-
-
-GeometryFactory::~GeometryFactory() 
-{
-}
-
-
 GeometryFactory* GeometryFactory::getInstance()
 {
     if( !_instance )

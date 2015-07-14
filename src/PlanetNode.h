@@ -32,8 +32,7 @@ public:
     /**
      * Builds transforms and geometries
      */
-    void buildNode();
-    
+    void buildNode(); 
     
 private:
 

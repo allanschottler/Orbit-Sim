@@ -7,6 +7,7 @@
 
 #include "PlanetNode.h"
 #include "GeometryFactory.h"
+#include "CircularOrbitTransform.h"
 
 PlanetNode::PlanetNode()
 {
@@ -22,3 +23,4 @@ PlanetNode::~PlanetNode()
 void PlanetNode::buildNode()
 {    
 }
+
