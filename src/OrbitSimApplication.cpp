@@ -35,6 +35,8 @@ OrbitSimApplication::OrbitSimApplication()
     
     RegisterCallbacksVisitor registerCallbacks;
     _sceneNode->accept( registerCallbacks );
+    
+    _sceneNode->getOrCreateStateSet()->setMode( GL_LIGHTING, osg::StateAttribute::OFF );
 	
     _viewer.setSceneData( _sceneNode );    
 }

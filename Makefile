@@ -31,11 +31,16 @@ INCLUDES := $(wildcard $(SRCDIR)/*.h)
 OBJECTS  := $(SOURCES:$(SRCDIR)/%.cpp=$(OBJDIR)/%.o)
 rm       = rm -f
 
-INCLUDE = -I./lib/OpenSceneGraph-3.0.1-Ubuntu-x64-release-12741/include     \
+INCLUDE = -I/home/p/libs/freeglut/2.6.0/include    \
+          -I/home/p/libs/glew/1.5.7/include        \
+          -I/home/p/libs/OSG3.2/include
 
 
-LIBSDIR = -L./lib/OpenSceneGraph-3.0.1-Ubuntu-x64-release-12741/lib64/      \
-	    -losg -losgUtil -losgGA -losgDB -losgText -losgViewer -losgSim -lOpenThreads
+LIBSDIR =  -L/home/p/libs/freeglut/2.6.0/lib/Linux26g4_64 \
+           -L/home/p/libs/glew/1.5.7/lib/Linux26g4_64 \
+           -lGL	-lGLU -lglut -lGLEW \
+           -L/home/p/libs/OSG3.2/lib/Linux26g4_64              \
+           -losg -losgUtil -losgGA -losgDB -losgText -losgViewer -losgSim -lOpenThreads -fopenmp
 
 
 
